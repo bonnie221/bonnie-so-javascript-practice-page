@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JavaScript Practice Page</title>
+
+<script>
+function changeText() {
+  var p = document.getElementById("samplemsg");
+
+  p.style.color = "green"
+  p.style.fontSize = "20pt"
+}
+</script>
+</head>
+<body>
+
+<p id="samplemsg" onclick=>Generic Message on Page</p>
+
+<form>
+  <p><input value="Click Here" type="button" onclick="changeText();" /></p>
+</form>
+
+</body>
+</html>
